@@ -1,0 +1,162 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+    background-color: #5e0b67;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+:root {
+  --cell-size: 90px;
+  --mark-size: calc(var(--cell-size) * .9);
+}
+
+.tit{
+    color: white;
+}
+
+#difficulty{
+  width: 140px;
+}
+
+#myDropdown{
+  width: 200px;
+}
+
+.label-1{
+    color: white;
+    background-color: rgb(91, 63, 116);
+    margin: 18px;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.per{
+  color: #fff;
+}
+
+.game-back{
+    border-radius: 8px;
+    justify-content: center;
+}
+.classification-canvas{
+  color: #fff;
+}
+
+#btns{
+    width: 400px !important;
+    justify-items: center !important;
+}
+
+.div-btn{
+    margin-top: 20px;
+    justify-content: center !important;
+}
+
+.btn-secondary{
+    background-color: #333 !important;
+}
+
+.container{
+    background-color: #3a0540 !important;
+}
+.container {
+    margin: 0 auto;
+    width: 500px;
+    justify-items: center !important;
+    border-radius: 12px !important;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.row , .rowg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell {
+    width: var(--cell-size);
+    height: var(--cell-size);
+    background-color: #3a0540;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.3s ease;
+}
+
+.cell.disabled {
+    cursor: not-allowed;
+    background-color: #ccc;
+}
+.status {
+  color: #fff;
+    font-size: 24px;
+    background-color: rgb(91, 63, 116);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+    width: 270px;
+    text-align: center;
+    display: inline;
+}
+.status-time {
+    color: #fff;
+    margin-top: 15px;
+    font-size: 24px;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+    display: inline;
+}
+  
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+
+
+ 
+  
+  button,
+  select {
+    margin: 18px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover,
+  select:hover {
+    background-color: #444;
+  }
+  
+  button:active,
+  select:active {
+    background-color: #555;
+  }
+  
+
